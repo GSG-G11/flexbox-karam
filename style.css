@@ -4,12 +4,23 @@
   box-sizing: border-box;
 }
 
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
 .header {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 20px;
   background-color: gray;
 }
 .menu {
   border: 1px solid white;
   color: white;
+  padding: 15px;
 }
 
 .main {
