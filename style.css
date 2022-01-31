@@ -24,11 +24,17 @@ body{
 }
 
 .main {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-around;
+  padding: 80px 0;
 }
 .article {
+  flex-basis: 15%;
   background-color: lightgray;
 }
 .article-title {
+  min-height: 100px;
   background-color: gray;
 }
 .footer {
